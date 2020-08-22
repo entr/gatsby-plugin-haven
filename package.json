@@ -1,0 +1,31 @@
+{
+  "name": "gatsby-plugin-haven",
+  "version": "0.0.1",
+  "description": "Fully-featured, GDPR-ready cookie consent manager for GatsbyJS",
+  "main": "index.js",
+  "author": "Zlatko Zlatev",
+  "license": "MIT",
+  "devDependencies": {
+    "@babel/cli": "^7.10.5",
+    "@babel/core": "^7.11.4",
+    "babel-preset-gatsby-package": "^0.5.2",
+    "cross-env": "^7.0.2"
+  },
+  "dependencies": {
+    "@babel/runtime": "^7.11.2"
+  },
+  "peerDependencies": {
+    "@chiiya/haven": "^0.6.0",
+    "gatsby": "^2.0.0",
+    "react": "^16.4.2",
+    "react-dom": "^16.4.2"
+  },
+  "scripts": {
+    "build": "babel src --out-dir . --ignore \"**/__tests__\"",
+    "prepare": "cross-env NODE_ENV=production npm run build",
+    "watch": "babel -w src --out-dir . --ignore \"**/__tests__\""
+  },
+  "engines": {
+    "node": ">=10.13.0"
+  }
+}
