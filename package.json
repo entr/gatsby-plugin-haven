@@ -1,6 +1,6 @@
 {
   "name": "gatsby-plugin-haven",
-  "version": "0.0.1",
+  "version": "1.0.0-beta.0",
   "description": "Fully-featured, GDPR-ready cookie consent manager for GatsbyJS",
   "main": "index.js",
   "author": "Zlatko Zlatev",
